@@ -13,7 +13,7 @@ class makeSample {
             return "no videos detected\n";
         
     }
-    function issueFix(int $fix) {
+    function createSample(int $fix) {
         if ($fix)
             echo "sample has been pushed to the same directory\n";
     }
@@ -26,7 +26,7 @@ if ($sample == "notCreated") {
         "video" => "Filmora 9",
         "audio" => "Audacity"
     ]);
-    $fix->issueFix(1);
+    $fix->createSample(1);
 }
 
 $myfile = fopen("output.mp4", "w") or die("Unable to open file!");
