@@ -1,4 +1,4 @@
 # Sample Creator
 A YTPMV sample creator
 
-this was a terrible idea and i'm never doing this again
+this was a great idea what am i talking about
