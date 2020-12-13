@@ -3,7 +3,7 @@
 ! otherwise the line will be truncated
 program samplecreator
 implicit none
-  integer, parameter :: out_unit=20
+  integer, parameter :: sample=20
   write(*,*) "creating sample..."
   write(*,*) "sample video is being made with Filmora 9"
   write(*,*) "sample audio is being made with Audacity"
