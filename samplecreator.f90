@@ -1,6 +1,6 @@
 ! compile using
-! gfortran -o "out.exe" -fbackslash -ffree-line-length-none "samplecreator.f90"
-! otherwise the line will be truncated
+! gfortran -o "out.exe" -fbackslash "samplecreator.f90"
+! to make the backslashes work
 program samplecreator
 implicit none
   integer, parameter :: sample=20
